@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Privacy Policy for the Sky Research Backup personal Google Drive utility.">
+  <title>隐私政策 · Sky Research Backup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <nav aria-label="页面导航"><a class="brand" href="./">Sky Research Backup</a><a href="./">返回首页 / Home</a></nav>
+    <header><span class="label">更新日期 / Last updated: 2026-10-11</span><h1>隐私政策</h1><p class="intro">本政策说明 Sky Research Backup 如何处理通过 Google 授权访问的数据。该工具供资料所有者备份、恢复和校验自己的文件。</p></header>
+    <section><h2>访问哪些数据</h2><p>应用申请 <code>https://www.googleapis.com/auth/drive.file</code> 权限，处理通过此客户端创建的文件与文件夹，包括文件内容、名称、标识符和操作所需的元数据。工具也会读取存储容量与用量信息，用于检查可用空间。</p></section>
+    <section><h2>数据用途与存放</h2><p>这些数据用于上传备份、下载恢复、检查文件完整性和执行所有者要求的文件操作。备份存放在所有者的 Google Drive；下载的副本及操作记录存放在所有者控制的工作区或其指定的备份位置。</p><p>Google 授权凭据保存在所有者控制的工作区内，供 rclone 调用 Google API。凭据文件设置为仅其操作账户可读。操作记录可能包含文件名称、路径、大小、校验和与执行结果。</p></section>
+    <section><h2>传输与共享</h2><p>文件通过 HTTPS 在工作区与 Google Drive 之间传输。若所有者要求复制到其他备份位置，工具按其指示执行。应用不出售 Google 用户数据，也不将其用于广告或训练通用人工智能模型。</p><p>本说明网站由 GitHub Pages 托管。网站未添加分析或广告脚本；托管服务可能按自身政策保留访问日志。备份文件和授权凭据的处理发生在所有者的工作区与 Google 服务之间。</p></section>
+    <section><h2>保留、删除与撤销授权</h2><p>所有者决定备份的保留期限，可通过 Google Drive 或工作区工具删除相应文件和副本。所有者也可在 Google 账户的第三方连接设置中撤销 Sky Research Backup 的访问权限。撤销授权会停止后续授权访问，但已经保存的备份文件需由所有者另行删除。</p><p>工具问题可通过<a href="https://github.com/hlj070405/sky-research-backup-info/issues">项目支持入口</a>联系维护者。涉及私人资料的访问、删除或其他隐私请求，可使用 Google 授权界面显示的用户支持邮箱联系维护者。</p></section>
+    <section lang="en"><h2>Privacy Policy — English</h2><p>Sky Research Backup is a personal utility for backing up, restoring and verifying the owner's files. It requests the <code>drive.file</code> scope and processes files and folders created through this client, including their contents, names, identifiers and operational metadata. Storage capacity and usage are read to check available space.</p><p>Google user data is used for owner-directed file transfers, integrity verification and file operations. Backups are stored in the owner's Google Drive. Restored copies and operational records are stored in the owner's workspace or backup destinations designated by the owner. Records may contain file names, paths, sizes, checksums and execution results.</p><p>OAuth credentials are stored privately in the owner's workspace with permissions restricted to the operating account. Transfers between the workspace and Google Drive use HTTPS. Additional backup transfers occur only as instructed by the owner. Google user data is not sold, used for advertising or used to train general-purpose AI models.</p><p>This informational website is hosted by GitHub Pages and has no added analytics or advertising scripts. The hosting provider may retain access logs under its own policies. Backup file and credential processing occurs in the owner's workspace and Google services.</p><p>The owner controls retention and can delete stored files and restored copies. Google access can be revoked in the Google Account's third-party connections settings. Revoking access does not automatically delete existing backups. Technical questions can be raised through the <a href="https://github.com/hlj070405/sky-research-backup-info/issues">project issue tracker</a>. For private access, deletion or other privacy requests, contact the user support email displayed on the application's Google consent screen.</p></section>
+    <footer><p><a href="./">返回首页 / Sky Research Backup</a></p></footer>
+  </main>
+</body>
+</html>
